@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Server Status</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <h1>Minecraft Server Status</h1>
+    <p>Daten die hier sind können nicht übereinstimmen. Wir versuchen mögliche genaue Angaben zu bekommen.</p>
+    <p> Erstellt von OPPRO.NET Development</p>
+
+    <!-- Buttons in der Mitte -->
+    <div class="button-container">
+        <button class="button" onclick="checkAllServerStatuses()">Status aller Server aktualisieren</button>
+        <button class="button" onclick="toggleDarkLightMode()">Wechseln zu Dark/Light Mode</button>
+    </div>
+
+    <!-- Server Status Container -->
+    <div class="status-container" id="server-status-container">
+        <!-- Server-Status-Daten werden hier dynamisch hinzugefügt -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
